@@ -15,7 +15,7 @@ python manage.py
 ```
 ### migrate tables
 
-makemigrations
+make migrations
 ```
 python manage.py migrate
 ```
