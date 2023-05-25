@@ -1,21 +1,29 @@
-#first django app
+# first django app
 
-python -m django startproject mysite //create django app
-
-python manage.py startapp firstapp
-
-migrate tables
+### create django app
+```
+python -m django startproject mysite
+```
+### startapp firstapp
+```
+python manage.py 
+```
+### migrate tables
+```
 python manage.py makemigrations
+```
+```
 python manage.py migrate
+```
+```
 pip install pipreqs
 pipreqs .
-
-
-run server
-
-python manage.py runserver
-
+```
+### Run app
+```
+python manage.py 
+```
 run docker
-
+```
 docker compose up --build
-
+```
