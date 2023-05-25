@@ -19,7 +19,7 @@ makemigrations
 ```
 python manage.py migrate
 ```
-### run docker
+### run docker own powershell
 ```
 docker compose up --build
 ```
